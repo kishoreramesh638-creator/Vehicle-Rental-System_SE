@@ -1,0 +1,43 @@
+module.exports = {
+  ROLES: {
+    CUSTOMER: 'CUSTOMER',
+    ADMIN: 'ADMIN'
+  },
+  USER_STATUS: {
+    ACTIVE: 'ACTIVE',
+    INACTIVE: 'INACTIVE'
+  },
+  VEHICLE_STATUS: {
+    AVAILABLE: 'AVAILABLE',
+    RENTED: 'RENTED',
+    MAINTENANCE: 'MAINTENANCE',
+    INACTIVE: 'INACTIVE'
+  },
+  BOOKING_STATUS: {
+    PENDING: 'PENDING',
+    CONFIRMED: 'CONFIRMED',
+    ACTIVE: 'ACTIVE',
+    COMPLETED: 'COMPLETED',
+    CANCELLED: 'CANCELLED',
+    REJECTED: 'REJECTED',
+    OVERDUE: 'OVERDUE'
+  },
+  PAYMENT_STATUS: {
+    PENDING: 'PENDING',
+    PAID: 'PAID',
+    REFUNDED: 'REFUNDED',
+    FAILED: 'FAILED'
+  },
+  PAYMENT_METHODS: {
+    UPI: 'UPI',
+    CARD: 'Card',
+    CASH: 'Cash'
+  },
+  DEFAULT_SECURITY_DEPOSITS: {
+    Bike: 2500.00,
+    Hatchback: 3000.00,
+    Sedan: 5000.00,
+    SUV: 7000.00,
+    Luxury: 15000.00
+  }
+};
